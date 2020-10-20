@@ -64,8 +64,10 @@ Para este diseño del puente, se siguió iterando el reticulado anterior con la 
 ![alt text](https://github.com/raimolid/MCOC2020_P2_G2_Entrega5/blob/main/v08_diseno.png)
 
 Iterando nuevamente con el diseño anterior, se llegó a un diseño que, si bien aumentaba un poco el peso anterior, cumplía todos los criterios de diseño. Este diseño se hizo desplazando el primer apoyo a la izquierda desde el punto #14 de la quebrada hacia el punto #11.
-
 Estos apoyos permiten disminuir la carga hacia barras críticas, pudiendo disminuir su sección y el peso total de la estructura, cuidando siempre la esbeltez y la carga crítica del sistema.
+
+Los radios (R) y espesores (t) de todas las barras se hicieron optimizando dentro de la funcion rediseñar, donde se obtuvieron los datos de esos parámetros en una lista con los datos para cada barra. Los radios van desde los 3 cm a los 49 cm y los espesores desde los 2 mm a los 25 mm, dependiendo de la barra.
+
 
 ![alt text](https://github.com/raimolid/MCOC2020_P2_G2_Entrega5/blob/main/v08_tensiones1.png)
 ![alt text](https://github.com/raimolid/MCOC2020_P2_G2_Entrega5/blob/main/v08_tensiones2.png)
