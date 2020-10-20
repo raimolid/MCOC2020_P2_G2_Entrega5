@@ -51,7 +51,7 @@ Luego de optimizar No Cumple con la Combinacion de Carga 1 ni 2.
 
 Se puede apreciar que el diseño pesa menos que los dos primeros diseños y a su vez cumple con ambas combinaciones de cargas. Estas cumpliran en primer lugar porque los radios y dimensiones de las barras se exageran.
 
-Luego se siguio a optimizar los R y t, se tuvieron que rediseñar las barras 256, 348 y 379 porque no cumplían con la Esbeltez. Una vez hecho esto el reticulado Si cumplia conlas Combinaciones de Carga 1 y 2, luego se calculo el nuevo peso total.
+Luego se siguio a optimizar los R y t, se tuvieron que rediseñar las barras 256, 348 y 379 porque no cumplían con la Esbeltez. Una vez hecho esto el reticulado si cumplia con las Combinaciones de Carga 1 y 2, luego se calculo el nuevo peso total.
 
 * Esta optimización del puente dara un peso : 3086947.68288914 Kg.
 
