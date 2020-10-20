@@ -18,7 +18,7 @@ Luego se siguio a optimizar el diseño anterior del reticulado, disminuyendo los
 
 * Esta optimización del puente dara un peso : 4727550.409182751 Kg.
 
-* Luego de optimizar No Cumple con la Combinacion 1 ni 2.
+Luego de optimizar No Cumple con la Combinacion de Carga 1 ni 2.
 
 * Con este cambio se puede apreciar que la barra 52 como muchas otras no cumple por Resistencia Nominal.
 * Tambien la barra 75 como otras no cumplira por pandeo.
@@ -37,7 +37,10 @@ De la misma manera que en el primer diseño se siguio a optimizar reticulado, di
 
 * Esta optimización del puente dara un peso : 6074837.875991005 Kg.
 
-* Con este cambio se puede apreciar que de la barra 1 hasta la 85 si cumplen para ambas combinaciones de carga. Pero desde la barra 86 hasta la barra 174 no cumple ya que son Esbeltaz, a excepción de la barra 151 que no cumple por Pandeo.
+Luego de optimizar No Cumple con la Combinacion de Carga 1 ni 2.
+
+* Con este cambio se puede apreciar que de la barra 1 hasta la 85 si cumplen para ambas combinaciones de carga. 
+* Pero desde la barra 86 hasta la barra 174 no cumple ya que son Esbeltaz, a excepción de la barra 151 que no cumple por Pandeo.
 
 # El Tercer diseño que se hizo es el que se ve a continuación:
 
@@ -48,7 +51,7 @@ De la misma manera que en el primer diseño se siguio a optimizar reticulado, di
 
 Se puede apreciar que el diseño pesa menos que los dos primeros diseños y a su vez cumple con ambas combinaciones de cargas. Estas cumpliran en primer lugar porque los radios y dimensiones de las barras se exageran.
 
-Luego se siguio a optimizar los R y t, se tuvieron que rediseñar las barras 256, 348 y 379 porque no cumplían con la Esbeltez. Una vez hecho esto se calculo el nuevo peso total.
+Luego se siguio a optimizar los R y t, se tuvieron que rediseñar las barras 256, 348 y 379 porque no cumplían con la Esbeltez. Una vez hecho esto el reticulado Si cumplia conlas Combinaciones de Carga 1 y 2, luego se calculo el nuevo peso total.
 
 * Esta optimización del puente dara un peso : 3086947.68288914 Kg.
 
