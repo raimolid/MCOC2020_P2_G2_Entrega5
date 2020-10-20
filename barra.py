@@ -127,13 +127,43 @@ class Barra(object):
 		"""
 		f = 1.
 		p = 1e-4
-
+		A = self.calcular_area()
+		Fn = A * self.σy
+		
 		datos_B = []
 		
 		while f > 0:
 			
 			self.R = self.R * f
 			self.t = self.t * f	
+
+			L = self.calcular_largo(ret)
+			I = np.pi/4 * (self.R**4 - (self.R - self.t)**4)
+			i = np.sqrt(I/A)
+	
+			#Revisar radio de giro
+			if Fu >= 0 and L/i > 300:
+				self.R = self.R / f
+				self.t = self.t / f	
+				
+				f = f + p
+				
+				self.R = self.R * f
+				self.t = self.t * f
+				break
+	
+			#Revisar carga critica de pandeo
+			if Fu < 0:  #solo en traccion
+				Pcr = np.pi**2*self.E*I / L**2
+				if abs(Fu) > Pcr:
+					self.R = self.R / f
+					self.t = self.t / f	
+					
+					f = f + p
+					
+					self.R = self.R * f
+					self.t = self.t * f
+					break
 				
 			#Revisar resistencia nominal
 			if self.obtener_factor_utilizacion(Fu, ϕ=0.9) < 1:
@@ -152,8 +182,7 @@ class Barra(object):
 				break
 
 			else:
-				break			
-
+				break						
 		"""Aqui se cambia R y t para que tengan un valor entero"""
 		
 		R = ceil(self.R * 100)
