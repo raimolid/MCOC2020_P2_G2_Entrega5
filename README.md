@@ -61,18 +61,18 @@ Para este diseño del puente, se siguió iterando el reticulado anterior con la 
 
 # Diseño final óptimo:
 
-![alt text](https://github.com/jmbarriga1/MCOC2020_P2_G2_Entrega5/blob/main/)
+![alt text](https://github.com/raimolid/MCOC2020_P2_G2_Entrega5/blob/main/v08_diseno)
 
 Iterando nuevamente con el diseño anterior, se llegó a un diseño que, si bien aumentaba un poco el peso anterior, cumplía todos los criterios de diseño. Este diseño se hizo desplazando el primer apoyo a la izquierda desde el punto #14 de la quebrada hacia el punto #11.
 
 Estos apoyos permiten disminuir la carga hacia barras críticas, pudiendo disminuir su sección y el peso total de la estructura, cuidando siempre la esbeltez y la carga crítica del sistema.
 
-![alt text](https://github.com/jmbarriga1/MCOC2020_P2_G2_Entrega5/blob/main/tension)
-![alt text](https://github.com/jmbarriga1/MCOC2020_P2_G2_Entrega5/blob/main/tension)
+![alt text](https://github.com/raimolid/MCOC2020_P2_G2_Entrega5/blob/main/v08_tensiones1)
+![alt text](https://github.com/raimolid/MCOC2020_P2_G2_Entrega5/blob/main/v08_tensiones2)
 
 * El peso total de la estructura es de 1488317 kg = 1488 ton 
 * Se cumplen las 2 combinaciones de cargas solicitadas y los factores de utilización se pueden apreciar en las imágenes:
 
-![alt text](https://github.com/jmbarriga1/MCOC2020_P2_G2_Entrega5/blob/main/fu)
-![alt text](https://github.com/jmbarriga1/MCOC2020_P2_G2_Entrega5/blob/main/fu)
+![alt text](https://github.com/raimolid/MCOC2020_P2_G2_Entrega5/blob/main/v08_FU1)
+![alt text](https://github.com/raimolid/MCOC2020_P2_G2_Entrega5/blob/main/v08_FU2)
 
